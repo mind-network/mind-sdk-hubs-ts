@@ -1,6 +1,7 @@
 {
   "name": "mind-hubs-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "Typescript SDK to interact with MIND Hub Framework",
   "files": [
     "dist",
     "README.md"
@@ -17,7 +18,10 @@
   ],
   "author": "Mind Network",
   "license": "MIT",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mind-network/mind-sdk-hubs-ts.git"
+  },
   "devDependencies": {
     "@typechain/ethers-v6": "^0.5.1",
     "@types/node": "^22.10.5",
